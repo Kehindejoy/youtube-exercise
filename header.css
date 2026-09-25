@@ -1,0 +1,142 @@
+body{
+    height: 3000px;
+    padding-top: 75px;
+    padding-left: 80px;
+    padding-right: 20px;
+    background-color: rgb(249, 249, 249);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding-left: 24px;
+    padding-right: 30px;
+    background-color: white;
+
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(195, 195, 195);
+   z-index: 100;
+}
+
+.left-div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    
+}
+
+.hamburger-img{
+    height: 24px;
+    margin-right: 6%;
+}
+
+.youtubelogo-img{
+    height: 22px;
+}
+
+.middle-div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    margin-right: 35px;
+    
+}
+
+.search-button{
+    height: 39px;
+    width: 60px;
+    border: 1px solid rgb(209, 203, 203);
+    margin-left: -1px;
+    margin-right: 8px;
+    background-color: rgb(242, 242, 242);
+    
+}
+
+.voice-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   border: none;
+   background-color: rgb(242, 242, 242);
+
+}
+
+.search-img{
+    height: 24px;
+    margin-top: 5px;   
+}
+
+.voice-img{
+    height: 24px;
+     margin-top: 5px; 
+}
+
+input{
+    flex: 1;
+    height: 35px;
+    border: 1px solid rgb(209, 203, 203);
+    width: 0px;
+    text-indent: 10px;
+}
+
+input::placeholder{
+    font-family: arial;
+    font-size: 14px;
+    color: gray;
+}
+
+.right-div{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.upload-img{
+    height: 24px;
+}
+
+.app-img{
+    height: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.notification-img{
+    height: 24px;
+    
+}
+
+.noti-div{
+    position: relative;
+}
+
+.profile-img{
+    height: 24px;
+    margin-left: 5%;
+}
+
+.numb-div{
+position: absolute;
+background-color: rgb(188, 0, 0);
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 2px;
+padding-top: 2px;
+border-radius: 50%;
+color: white;
+font-family: Arial;
+font-size: 10px;
+bottom: 15px;
+right: -3px;
+}
+
