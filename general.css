@@ -82,6 +82,10 @@ small{
     height: 24px;
 }
 
+.sidebar-div:hover{
+    background-color: rgb(235, 235, 235);
+}
+
 .ontop-div{
     position: absolute;
     background-color: black;

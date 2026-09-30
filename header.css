@@ -56,7 +56,30 @@ body{
     margin-left: -1px;
     margin-right: 8px;
     background-color: rgb(242, 242, 242);
-    
+    cursor: pointer;
+    position: relative;
+    transition: 0.125s;
+
+}
+
+.search-button:hover{
+    background-color: rgb(231, 230, 230);
+}
+
+.search-button:hover .tooltip-div{
+    opacity: 1;
+}
+
+.tooltip-div{
+    background-color: gray;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 8px 7px 8px 7px;
+    bottom: -50px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .voice-button{
@@ -65,12 +88,36 @@ body{
     border-radius: 50%;
    border: none;
    background-color: rgb(242, 242, 242);
+   position: relative;
+   cursor: pointer;
+   transition: 0.125s;
+}
 
+.voice-button:hover{
+    background-color: rgb(231, 230, 230);
+}
+
+.voice-button:hover .voice-div{
+    opacity: 1;
+}
+
+.voice-div{
+    background-color: gray;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 8px 7px 8px 7px;
+    bottom: -50px;
+    right: -40px;
+    position: absolute;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
 }
 
 .search-img{
     height: 24px;
-    margin-top: 5px;   
+    margin-top: 5px;
 }
 
 .voice-img{
