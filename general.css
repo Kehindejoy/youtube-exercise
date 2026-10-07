@@ -35,15 +35,15 @@
 }
 
 h3{
-    font-family: Tahoma;
+    font-family: Arial;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 p{
-    font-family: Tahoma;
+    font-family: Arial;
     font-size: 12px;
     color: gray;
     margin-bottom: 0px;
@@ -52,7 +52,7 @@ p{
 }
 
 small{
-    font-family: Tahoma;
+    font-family: Arial;
     font-size: 12px;
     color: gray;   
 }
@@ -73,13 +73,14 @@ small{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: Tahoma;
+    font-family: Arial;
     font-size: 10px;
     cursor: pointer;
 }
 
 .sidebar-div img{
     height: 24px;
+    margin-bottom:5px
 }
 
 .sidebar-div:hover{
@@ -92,4 +93,9 @@ small{
     color: white;
     bottom: 10px;
     right: 5px;
+    padding:2px 4px 2px 4px;
+    border-radius:2px;
+    font-family: arial;
+    font-size: 13px;
+    font-weight:550;
 }
